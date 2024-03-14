@@ -1,0 +1,63 @@
+nav {
+    background-color: rgb(235, 245, 235);
+}
+
+.logo {
+
+    font-family: "Whisper", cursive;
+    font-weight: bolder;
+    font-size: 34px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
+}
+
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(4, 223px);
+    gap: 30px;
+    justify-content: center;
+}
+
+
+@media (max-width: 1000px) {
+    .shop {
+        grid-template-columns: repeat(2, 223px);
+    }
+}
+
+@media (max-width: 500px) {
+    .shop {
+        grid-template-columns: repeat(1, 223px);
+    }
+}
+
+.checkout {
+    background-color: rgb(96, 216, 96);
+    border: none;
+    border-radius: 3px;
+    width: 21%;
+}
+
+.checkout:hover {
+    background-color: rgb(57, 212, 57);
+}
+
+
+@media (max-width: 1000px) {
+    .shopping-cart {
+        grid-template-columns: repeat(2, 223px);
+    }
+}
+
+@media (max-width: 500px) {
+    .shopping-cart {
+        width: 100%;
+        grid-template-columns: repeat(2, 223px);
+    }
+}
+
+.footer {
+    background-color: rgb(235, 245, 235);
+}
